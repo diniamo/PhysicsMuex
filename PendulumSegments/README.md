@@ -6,7 +6,7 @@ $\frac{2}{3}$ of the fall take longer?
 
 One way to answer that question, is by dividing the arc of a fall into very
 small parts (e.g. 1°), and calculating the time they would each take. Obviously,
-doing that by hand would be very tedious, so I made [this](main.jl) Julia
+doing that by hand would be very tedious, so I made [this](PendulumSegments.jl) Julia
 implementation.
 
 Note that the length of the string can be any value, since both segment times

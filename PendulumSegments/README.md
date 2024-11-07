@@ -20,7 +20,10 @@ convenience.
 
 ## Mathematical solution
 
-While that was fun to write, there is a purely mathematical solution.
+I got pretty close to a mathematical solution as well, the only problem is that using the average of the velocities might not be correct, if the acceleration isn't linear.
+
+<details>
+<summary>Unfinished solution</summary>
 
 Utilizing the law of conservation of energy, we can get the velocities after the
 first segment and at the end:
@@ -41,3 +44,5 @@ compare the non-common factors, which are $1$ and
 $\frac{4}{3+2\sqrt{2}}\approx0.69$. The non-common factor in the second
 expression is clearly less than $1$, meaning that $t_1$ is bigger, and therefore
 the first segment takes longer!
+
+</details>
